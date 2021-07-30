@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/opencv4"
+            ],
+            "defines": [],
+            "compilerPath": "/home/kuldeep/petalinux/petalinux/tools/xsct/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
