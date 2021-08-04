@@ -5,8 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/usr/local/include/opencv4",
-                "/path/to/intel-realsense-l515/librealsense/include/",
-                "/usr/include/x86_64-linux-gnu/c++/8"
+                "/usr/include/x86_64-linux-gnu/c++/9"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc-9",
