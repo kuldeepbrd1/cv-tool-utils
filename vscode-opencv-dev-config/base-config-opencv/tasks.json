@@ -11,7 +11,9 @@
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}",
 				"-I/usr/local/include/opencv4",
+				"-I/path/to/intel-realsense-l515/librealsense/include/",
 				"-L/usr/local/lib",
+				"-lrealsense2",
 				"-lopencv_gapi",
 				"-lopencv_stitching",
 				"-lopencv_aruco",
@@ -64,7 +66,7 @@
 				"-lopencv_xphoto",
 				"-lopencv_photo",
 				"-lopencv_imgproc",
-				"-lopencv_core"				
+				"-lopencv_core"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
